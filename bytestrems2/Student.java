@@ -2,7 +2,7 @@ package bytestrems2;
 
 import java.io.Serializable;
 
-public class Student implements Serializable {
+public class Student implements Serializable  {
     String id;
     String name;
 
