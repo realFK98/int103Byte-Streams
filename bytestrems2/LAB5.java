@@ -31,7 +31,7 @@ public class LAB5 {
             FileInputStream file = new FileInputStream("object.dat");
             ObjectInputStream input = new ObjectInputStream(file);
             Student ss = (Student) input.readObject();
-            System.out.println(ss);
+            System.out.println();
 
         } catch (FileNotFoundException e) {
             // TODO Auto-generated catch block
